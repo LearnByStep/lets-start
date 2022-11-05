@@ -36,4 +36,15 @@ git config --glboal user.email jinwei.peng@outlook.com
 ```shell
 git log
 ```
-1
+
+## 添加远端仓库并提交
+
+```shell
+git remote add origin https://github.com/jinweios/lets-start.git
+
+# 只有第一次会报错，我们需要使用报错的命令进行首次提交
+git push -u origin master
+
+## 以后仅需要 git push
+git push
+```
