@@ -1,5 +1,3 @@
-# 测试
-
 ## 查看状态
 没有副作用
 
@@ -37,3 +35,4 @@ git config --glboal user.email jinwei.peng@outlook.com
 ```shell
 git log
 ```
+1
