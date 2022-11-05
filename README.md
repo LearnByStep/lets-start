@@ -48,3 +48,10 @@ git push -u origin master
 ## 以后仅需要 git push
 git push
 ```
+
+## 如何clone？
+当本地没有远端仓库的代码时间，如何将远端仓库拉取到本地
+
+```shell
+git clone https://github.com/LearnByStep/lets-start.git
+```
