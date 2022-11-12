@@ -3,6 +3,7 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./index.css">
     <!-- <link
       href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap"
       rel="stylesheet"
@@ -10,9 +11,6 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <style>
-      div {
-        color: green;
-      }
 
       .first-word {
         background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
@@ -21,20 +19,68 @@
         font-weight: bold;
         font-size: 2em;
         font-family: 'source code pro', monospace;
+        background-color: #647eff;
       }
 
       #second-word {
         color: rgba(0, 0, 0, 0.6);
+        background-color: #647eff;
+      }
+
+      .edit {
+        color: #fff;
+        background-color: #00b96b;
+        width: 60px; /** 单位是像素**/
+        height: 32px;
+      }
+
+      .edit:hover {
+        background-color: red;
+
+        background-color: black !important;
+        cursor: pointer;
+      }
+
+
+      div {
+        color: red;
+      }
+
+      /* #style-id {
+        color: #000;
+      } */
+
+      .style-class {
+        color: yellow;
+      }
+
+      div > div > span {
+        color: green;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
       }
     </style>
   </head>
   <body>
     <span class="first-word">I have a dream!</span>
-    <h1>只是一个大标题</h1>
-    <p id="second-word">这是第二句话</p>
+    <h1 style="color: green;">只是一个大标题</h1>
+    <p id="second-word">这是第二句话</p><span>哈哈哈</span>
     <div>
       1. 字体颜色 2. 字体大小, 字体类型 3. 背景颜色 4.
       调整整个盒子模型，（宽度，高度，边距） 5. 调整鼠标样式
+    </div>
+    <div class="edit">编辑</div>
+    <span>哈哈哈</span>
+    <div class="out-layout">外部样式表，对我设置颜色</div>
+
+    <!--优先级测试-->
+    <div class="style-class" id="style-id">优先级测试
+      <div>
+        <span>aaaa</span>
+      </div>
     </div>
   </body>
 </html>
