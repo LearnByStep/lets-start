@@ -11,6 +11,10 @@
         padding: 0;
       }
 
+      .blank-white {
+        height: 20000px;
+      }
+
       .tab-ele {
         display: inline-block;
         color: #515767;
@@ -20,18 +24,41 @@
         font-size: 12px;
         line-height: 60px; /** 当块级元素的行高和高度相同时，内容就自动垂直居中**/
         text-align: center; /** 块级元素内容水平居中**/
+        background-color: #007fff;
+      }
+
+      .up-most {
+        /* position: relative;
+        z-index: 999; */
       }
 
       .tab-ele:hover {
         cursor: pointer;
         color: #2e313a;
+        
         border-bottom: 2px solid #007fff;
       }
 
       .tab-site {
         /** 定位**/
         position: absolute;
-        left: 12px;
+        bottom: 12px;
+        background-color: aqua;
+        z-index: 99;
+      }
+
+      .tab-video {
+        position: sticky;
+        top: 0px;
+      }
+
+      .blank {
+        height: 200px;
+        background-color: #2e313a;
+        position: -webkit-sticky;
+
+        position: relative;
+        bottom: 30px;
       }
     </style>
   </head>
@@ -39,10 +66,12 @@
     <div style="position: relative;">
       <span class="tab-ele">首页</span>
       <span class="tab-ele tab-site">沸点</span>
-      <span class="tab-ele">课程</span>
-      <span class="tab-ele">直播</span>
+      <span class="tab-ele up-most">课程</span>
+      <span class="tab-ele tab-video">直播</span>
       <span class="tab-ele">活动</span>
       <span class="tab-ele">商城</span>
     </div>
+    <div class="blank"></div>
+    <div class="blank-white"></div>
   </body>
 </html>
