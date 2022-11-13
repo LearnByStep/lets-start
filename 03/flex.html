@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body {
+            height: 100%;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            background-color: #e2e2e2;
+            width: 100%;
+            height: 100%;
+
+            /** flex 容器属性 **/
+            flex-direction: row;
+            flex-wrap: nowrap;
+            /* flex-flow: row wrap; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item-o {
+            height: 200px;
+            /* width: 200px; */
+            background-color: chocolate;
+            border: 2px solid #fff;
+            /* flex-shrink: 0; */
+            flex-basis: 200px;
+        }
+        .item-r {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border: 2px solid #fff;
+
+            /** flex item 属性*/
+            /* flex-grow: 1; */
+            flex-shrink: 0;
+            align-self: flex-start;
+        }
+
+        .item-b {
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            border: 2px solid #fff;
+            
+            /** 一下属性为 flex item属性 */
+            order: -1;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item-o">
+        </div>
+        <div class="item-r"></div>
+        <!-- <div class="item-o"></div>
+        <div class="item-b"></div>
+        <div class="item-o"></div>
+        <div class="item-r"></div>
+        <div class="item-o"></div>
+        <div class="item-r"></div>
+        <div class="item-o"></div>
+        <div class="item-r"></div>
+        <div class="item-o"></div>
+        <div class="item-r"></div>
+        <div class="item-o"></div> -->
+    </div>
+</body>
+</html>
