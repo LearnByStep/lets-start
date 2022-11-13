@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .tab-ele {
+            display: inline-block;
+            color: #515767;
+            margin: 0 12px;
+            width: 28px;
+            height: 60px;
+            font-size: 12px;
+            line-height: 60px; /** 当块级元素的行高和高度相同时，内容就自动垂直居中**/
+            text-align: center; /** 块级元素内容水平居中**/
+        }
+
+        .tab-ele:hover {
+            cursor: pointer;
+            color: #2e313a;
+            border-bottom: 2px solid #007fff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span class="tab-ele">首页</span>
+        <span class="tab-ele">沸点</span>
+        <span class="tab-ele">课程</span>
+        <span class="tab-ele">直播</span>
+        <span class="tab-ele">活动</span>
+        <span class="tab-ele">商城</span>
+    </div>
+</body>
+</html>
