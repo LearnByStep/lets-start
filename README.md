@@ -17,7 +17,7 @@ github地址：
 | --- | --- | --- | --- |
 | 1 | HTML5标签 |  |  |
 | 2 | CSS格式化和布局 |  |  |
-| 3 | CSS预处理器 |  |  |
+| 3 | CSS预处理器 | https://github.com/boring-exp/dev-sass |  |
 | 4 | JavaScript基础 |  |  |
 | 5 | javascript函数 |  |  |
 | 6 | 面向对象的js |  |  |
