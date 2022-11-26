@@ -19,7 +19,7 @@ github地址：
 | 2 | CSS格式化和布局 |  |  |
 | 3 | CSS预处理器 | https://github.com/boring-exp/dev-sass |  |
 | 4 | JavaScript基础 |  |  |
-| 5 | javascript函数 |  |  |
+| 5 | javascript函数 |https://github.com/boring-exp/dev-sass/tree/main/src/js/callback  |  |
 | 6 | 面向对象的js |  |  |
 | 7 | js同步异步的流程控制 |  |  |
 | 8 | 浏览器事件循环 |  |  |
