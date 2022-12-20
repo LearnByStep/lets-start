@@ -24,7 +24,7 @@ github地址：
 | 7 | js同步异步的流程控制 |  |  |
 | 8 | 浏览器事件循环 |  |  |
 | 9 | babel |  |  |
-| 10 | HTTP协议 |  |  |
+| 10 | HTTP协议 | https://github.com/boring-exp/learn-http |  |
 | 11 | typescript |  |  |
 | 12 | 框架演进&vue入门&vue组件 |  |  |
 | 13 | vue组件数据流 |  |  |
